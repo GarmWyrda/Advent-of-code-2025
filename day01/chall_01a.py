@@ -1,3 +1,6 @@
+import time
+start_time = time.time()
+
 dial = 50
 answer = 0
 
@@ -11,3 +14,4 @@ with open('day01/input01a.txt', 'r') as file:
             answer += 1
 
 print(answer)
+print("--- %s seconds ---" % (time.time() - start_time))
