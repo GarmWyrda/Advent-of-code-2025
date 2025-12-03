@@ -1,7 +1,7 @@
 dial = 50
 answer = 0
 
-with open('input01b.txt', 'r') as file:
+with open('day01/input01b.txt', 'r') as file:
      for line in file:
           a = int(line[1:])
           if (a > 100):

@@ -1,7 +1,7 @@
 dial = 50
 answer = 0
 
-with open('input01a.txt', 'r') as file:
+with open('day01/input01a.txt', 'r') as file:
     for line in file:
         if (line[0] == "L"):
             dial = (dial - int(line[1:]))%100
